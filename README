@@ -16,10 +16,25 @@ $git commit -m <filename>
 $git push
 
 Push all files:
-git add .
-git commit -m "Your commit message here"
-git push origin master
+$git add .
+$git commit -m "Your commit message here"
+$git push origin master
+
+To Edit in VSCode:
+$cd AudioProjects 
+$code .
 
 
 Simple Low Pass and High Pass Filtering:
 https://www.youtube.com/watch?v=Aht4letBAmA
+Code creates a white noise and illustrates how filtering affects the amplitude over time of the signal.  
+
+Loading an Audio File:
+$ pip install soundfile numpy
+
+import soundfile as sf # Import our soundfile dependency
+data, fs = sf.read('input.wav') # Load a wave file called input.wav
+
+https://medium.com/@justanotherdev/getting-started-with-python-for-audio-8cd748a95adc
+
+
