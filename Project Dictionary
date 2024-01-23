@@ -1,0 +1,5 @@
+Clarifies some of the naming conventions on the .py files in this repository.  
+
+visualizer.py ==> Visualizing sound in the time domain.  How to import sound from library on computer. 
+
+filter.py ==> Audio filtering representation.  
