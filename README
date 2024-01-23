@@ -16,9 +16,13 @@ $git commit -m <filename>
 $git push
 
 Push all files:
-git add .
-git commit -m "Your commit message here"
-git push origin master
+$git add .
+$git commit -m "Your commit message here"
+$git push origin master
+
+To Edit in VSCode:
+$cd AudioProjects 
+$code .
 
 
 Simple Low Pass and High Pass Filtering:
